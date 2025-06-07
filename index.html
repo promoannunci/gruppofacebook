@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Richiedi Info</title>
+</head>
+<body>
+  <h1>Modulo Richiesta Informazioni</h1>
+
+  <form action="https://formsubmit.co/massi.corbetta@gmail.com" method="POST">
+    <!-- OPZIONI NASCOSTE -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
+    <input type="hidden" name="_next" value="https://promoannunci.github.io/mettere-in-evidenza/thank-you.html">
+    <input type="hidden" name="_autoresponse" value="Grazie! Abbiamo ricevuto la tua richiesta. Ti risponderemo al più presto.">
+
+    <!-- CAMPI VISIBILI -->
+    <label>Nome:
+      <input type="text" name="name" required>
+    </label><br><br>
+
+    <label>Email:
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>Messaggio:
+      <textarea name="message" required></textarea>
+    </label><br><br>
+
+    <button type="submit">Invia</button>
+  </form>
+</body>
+</html>
